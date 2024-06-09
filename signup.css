@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Outfit;
+}
+body{
+    background: #fff;
+    text-align: center;
+    font-family:Outfit;
+    min-height:10vh;
+}
+.logo{
+    margin-top:20px;
+}
+.signin-container{
+    max-width:350px;
+    border:1px solid #d2d2d2;
+    margin:auto;
+    margin-top:10px;
+    padding:20px 26px;
+    border-radius:8px;
+    text-align:left;
+}
+.signin-title{
+    font-size:28px;
+    font-weight:400;
+}
+.signin-title h1{
+    font-size:28px;
+    font-weight:400;
+}
+.input-label{
+    margin-top:20px;
+    font-weight:600;
+}
+.signin-container input{
+    width:100%;
+    height:33px;
+    margin-top:5px;
+    padding:3px 7px;
+    border-radius: 3px;
+    border:1px solid #a0a0a0;
+    font-size:12px;
+}
+.signin-container input:focus{
+    outline:3px solid #c2f2ff;
+}
+.password{
+    display:flex;
+    gap:6px;
+}
+.password .icon{
+    height:12px;
+    color:blue;
+}
+.password .password-text{
+    font-size:13px;
+}
+.signin-container button{
+    width:100%;
+    margin:15px 0;
+    height:33px;
+    background: #ffd814;
+    border:none;
+    border-radius: 8px;
+    cursor:pointer;
+}
+.signin-container button:hover{
+    background: #ebc712;
+}
+.signin-container .signin-conditions{
+    margin-top:0;
+    font-size:13px;
+    margin-bottom:20px;
+}
+.signin-container p span{
+    color:#0066c0;
+}
+.signin-business{
+    margin-top:10px;
+    font-size:12px;
+}
+.signin-container hr{
+    border:none;
+    height:1px;
+    background: #d4d4d4;
+    margin-bottom:20px;
+}
+.signin-business span{
+    margin-top:0;
+    font-size:13px;
+}
+.signin-container h4{
+    font-size:13px;
+}
+.signin-create span{
+    color:#0066c0;
+    font-weight:400;
+}
+.signin-container p{
+    margin-top:20px;
+    font-size:15px;
+}
+.signin-container .signin a{
+    text-decoration: none;
+}
+footer{
+    width:100%;
+    height:auto;
+    max-height:200px;
+    margin-top:20px;
+    padding:20px 0;
+    background: linear-gradient(to bottom,#f4f4f4,#fff);
+    font-size:12px;
+}
+.footer-bottom{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    margin-bottom:20px;
+}
+.footer-bottom a{
+    font-size:12px;
+    text-decoration: none;
+    color:#0066c0;
+}
+.footer-copyright{
+    font-size:12px;
+}
